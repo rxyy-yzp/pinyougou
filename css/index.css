@@ -1,0 +1,256 @@
+@charset "utf-8";
+/* CSS Document */
+.main {
+	width: 980px;
+	height: 455px;
+	margin-left: 220px;
+	margin-top: 10px; 
+}
+.focus {
+	float: left;
+	width: 721px;
+	height: 455px;
+}
+.newsflash {
+	float: right;
+	width: 250px;
+	height: 455px;
+}
+.news {
+	height: 165px;
+	border: 1px solid #e4e4e4;
+}
+.lifeservice {
+	overflow: hidden;
+	height: 209px;
+	border: 1px solid #e4e4e4;
+	border-top: 0;
+}
+.lifeservice ul {
+	width: 252px;
+	
+}
+.lifeservice ul li {
+	position: relative;
+	text-align: center;
+	float: left;
+	width: 63px;
+	height: 71px;
+	border-right: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+}
+.lifeservice .pi1{
+	display: inline-block;
+	width: 24px;
+	height: 28px;
+	margin-top: 12px;
+	background: url("../images/icons.png") no-repeat -18px -15px;
+}
+.lifeservice .pi2{
+	display: inline-block;
+	width: 24px;
+	height: 28px;
+	margin-top: 12px;
+	background: url("../images/icons.png") no-repeat -79px -16px;
+}
+.lifeservice  .jian {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 12px;
+	height: 15px;
+}
+.lifeservice .pi3{
+	display: inline-block;
+	width: 24px;
+	height: 28px;
+	margin-top: 12px;
+	background: url("../images/icons.png") no-repeat -142px -17px;
+}
+.lifeservice .pi4{
+	display: inline-block;
+	width: 24px;
+	height: 28px;
+	margin-top: 12px;
+	background: url("../images/icons.png") no-repeat -206px -17px;
+}
+.lifeservice .pi5{
+	display: inline-block;
+	width: 24px;
+	height: 28px;
+	margin-top: 12px;
+	background: url("../images/icons.png") no-repeat -17px -88px;
+}
+.lifeservice .pi6{
+	display: inline-block;
+	width: 24px;
+	height: 28px;
+	margin-top: 12px;
+	background: url("../images/icons.png") no-repeat -79px -88px;
+}
+.lifeservice .pi7{
+	display: inline-block;
+	width: 24px;
+	height: 28px;
+	margin-top: 12px;
+	background: url("../images/icons.png") no-repeat -143px -89px;
+}
+.lifeservice .pi8{
+	display: inline-block;
+	width: 24px;
+	height: 28px;
+	margin-top: 12px;
+	background: url("../images/icons.png") no-repeat -208px -88px;
+}
+.lifeservice .pi9{
+	display: inline-block;
+	width: 24px;
+	height: 28px;
+	margin-top: 12px;
+	background: url("../images/icons.png") no-repeat -17px -160px;
+}
+.lifeservice .pi10{
+	display: inline-block;
+	width: 24px;
+	height: 28px;
+	margin-top: 12px;
+	background: url("../images/icons.png") no-repeat -79px -158.5px;
+}
+.lifeservice .pi11{
+	display: inline-block;
+	width: 24px;
+	height: 28px;
+	margin-top: 12px;
+	background: url("../images/icons.png") no-repeat -141px -153px;
+}
+.lifeservice .pi12{
+	display: inline-block;
+	width: 24px;
+	height: 28px;
+	margin-top: 12px;
+	background: url("../images/icons.png") no-repeat -206px -160px;
+}
+.bargin {
+	margin-top: 5px;
+}
+.news-hd {
+	height: 33px;
+	line-height: 33px;
+	border-bottom: 1px dotted #e4e4e4;
+	padding: 0 15px;
+}
+.news-hd h5 {
+	float: left;
+	font-size: 14px;
+}
+.news-hd .more {
+	float: right;
+}
+.news-hd .more::after {
+	content: '\e920';
+	font-family: 'icomoon';
+}
+.news-bd {
+	padding: 0 15px 0;
+}
+.news-bd ul li {
+	height: 24px;
+	line-height: 24px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.recom {
+	height: 163px;
+	background-color: #ebebeb;
+	margin-top: 12px;
+}
+.recom_hd {
+	float: left;
+	height: 163px;
+	width: 205px;
+	background-color: #5c5251;
+	text-align: center;
+	padding-top: 30px;
+}
+.recom_bd {
+	float: left;
+}
+.recom_bd ul li {
+	position: relative;
+	float:left;
+}
+.recom_bd ul li img {
+	width: 248px;
+	height: 163px;
+}
+.recom_bd ul li:nth-child(-n+3)::after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 10px;
+	width: 1px;
+	height: 145px;
+	background-color: #ddd;
+}
+.box_hd {
+	height: 30px;
+	border-bottom: 2px solid #c81623;
+}
+.box_hd h3 {
+	float: left;
+	font-size: 18px;
+	color: #c81623;
+	font-weight: 400;
+}
+.tab_list {
+	float: right;
+	line-height: 30px;
+}
+.tab_list ul li {
+	float: left;
+}
+.tab_list ul li a {
+	padding: 0 15px;
+}
+.floor .w {
+	margin-top: 30px;
+}
+.box_bd {
+	height: 361px;
+}
+.tab_list_item>div {
+	float: left;
+	height: 361px;
+}
+.col_210 {
+	width: 210px;
+	background-color: #f9f9f9;
+	text-align: center;
+}
+.col_210 ul {
+	padding-bottom: 12px;
+}
+.col_210 ul li {
+	float: left;
+	width: 85px;
+	height: 34px;
+	border-bottom:  1px solid #ccc;
+	text-align: center;
+	line-height: 33px;
+	margin-left: 12px;
+}
+.col_329 {
+	width: 329px;
+}
+.col_221 {
+	width: 221px;
+	border-right: 1px solid #ccc;
+}
+.col_219 {
+	width: 219px;
+}
+.bb {
+	display: block;
+	border-bottom: 1px solid #ccc;
+}
